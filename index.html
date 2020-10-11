@@ -25,8 +25,8 @@
 				<h2>Bingo</h2>
 				
 				<div id="bingo-config">
+					<input id="multiplayer" type="checkbox" :value="levelConfiguration.multiplayer" />
 					<label for="multiplayer">
-						<input id="multiplayer" type="checkbox" :value="levelConfiguration.multiplayer" />
 						Multiplayer
 					</label>
 					<button @click="newGame">
@@ -100,7 +100,7 @@
 						{label: "kaizo blocks"},
 						{label: "level can be cheesed"},
 						{label: "auto mario level"},
-						{label: "“first level in title”"},
+						{label: "“first level” in title"},
 						{label: "meowser or boom-boom"},
 						{label: "title level"},
 						{label: "terribly named level"},
@@ -128,7 +128,7 @@
 						{label: "search after a kaizo block to win"},
 						{label: "THX"},
 						{label: "Kill yoshi for free"},
-						{label: "Kill at te end"},
+						{label: "Kill at the end"},
 						{label: "Uno mas"},
 					],
 				multiplayer: [
@@ -141,7 +141,7 @@
 						{label: "everyone end at flag"},
 						{label: "beat an S+ ranked player"},
 						{label: "someone wait at flag"},
-						{label: "played 3 times the same character in arow"},
+						{label: "played the same character 3 times in a row"},
 						{label: "boss fight"},
 						{label: "being carried by someone"},
 						{label: "kill someone with a shell"},
@@ -240,9 +240,9 @@
 		</style>
 		
 		<footer>
-			DGR ask it in <a href="https://www.youtube.com/watch?v=iI-OLOuRn5w">his video</a><br />
-			font from : https://famfonts.com/super-mario-maker/<br />
-			Made By <a href="https://twitter.com/Grummfy">Grummfy </a> - change it <a href="https://github.com/grummfy/fun_super-mario-maker2-bingo/">on github</a>
+			DGR asked for this in <a href="https://www.youtube.com/watch?v=iI-OLOuRn5w">his video</a><br />
+			Font from : https://famfonts.com/super-mario-maker/<br />
+			Made By <a href="https://twitter.com/Grummfy">Grummfy </a> - change it <a href="https://github.com/grummfy/fun_super-mario-maker2-bingo/">on GitHub</a>
 		</footer>
 	</body>
 </html>
